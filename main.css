@@ -1,0 +1,91 @@
+:root {
+    --green: #00FF00;
+    --white: #ffffff;
+    --bluewhite: #9bc3df;
+    --black: #000000;
+    --backgroundblue: #aedaf8;
+    --highlightblue:#6d8a9d;
+    --highdarkblue:#4e6371;
+    --greytext: #3d3d3d;
+}
+
+body {
+    color: var(--fontColor);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.post {
+    background-color: var(--highlightblue);
+    padding:20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    display:inline;
+}
+
+h3 {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.post I {
+    text-align: left;
+}
+
+.reply {
+    margin:5px;
+    margin-left: 100px;
+    margin-right:20px;
+    background-color: var(--bluewhite);
+    padding:10px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: var(--highlightblue);    
+}
+
+body {
+    background: var(--bg);
+}
+
+ul {
+    font-family: helvetica;
+}
+
+.nav {
+    list-style-type: none;
+}
+
+
+li a {    
+    list-style-type: none;
+    float:left; 
+    text-align:center;
+    font-size: 20px;
+    padding:5px;
+    margin: 2px;
+    background-color: var(--highlightblue);
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000000;
+}
+
+li a:hover {
+    background-color: var(--bluewhite);
+}
+ 
+
+.light-theme {
+    --bg: var(--backgroundblue);
+    --fontColor: var(--greytext);
+}
